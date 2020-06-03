@@ -1,0 +1,6 @@
+C:\Users\cx\Desktop\Kiwi Spoofer Crack\Kiwi Spoofer\bin\Release\Kiwi Spoofer.exe
+C:\Users\cx\Desktop\Kiwi Spoofer Crack\Kiwi Spoofer\bin\Release\Kiwi Spoofer.pdb
+C:\Users\cx\Desktop\Kiwi Spoofer Crack\Kiwi Spoofer\obj\Release\Kiwi Spoofer.csprojAssemblyReference.cache
+C:\Users\cx\Desktop\Kiwi Spoofer Crack\Kiwi Spoofer\obj\Release\Kiwi Spoofer.csproj.CoreCompileInputs.cache
+C:\Users\cx\Desktop\Kiwi Spoofer Crack\Kiwi Spoofer\obj\Release\Kiwi Spoofer.exe
+C:\Users\cx\Desktop\Kiwi Spoofer Crack\Kiwi Spoofer\obj\Release\Kiwi Spoofer.pdb
