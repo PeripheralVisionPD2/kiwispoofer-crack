@@ -22,7 +22,7 @@ namespace Spoofer
 		// Token: 0x06000002 RID: 2 RVA: 0x0000206C File Offset: 0x0000026C
 		private void Form1_Load(object sender, EventArgs e)
 		{
-			string path = "C:\\Windows\\SystemSettings";
+			/*string path = "C:\\Windows\\SystemSettings";
 			string path2 = "C:\\Windows\\SystemSettings\\Assets";
 			if (!Directory.Exists(path))
 			{
@@ -43,7 +43,7 @@ namespace Spoofer
 				}
 				Console.Beep(500, 200);
 				MessageBox.Show("Failed to install files", "Kiwi Spoofer Error");
-			}
+			}*/
 		}
 
 		// Token: 0x06000003 RID: 3 RVA: 0x00002125 File Offset: 0x00000325
@@ -100,7 +100,7 @@ namespace Spoofer
 			processStartInfo.RedirectStandardError = true;
 			processStartInfo.UseShellExecute = false;
 			Process process = Process.Start(processStartInfo);
-			process.StandardInput.WriteLine("cd C:\\Windows\\SystemSettings\\Assets");
+			process.StandardInput.WriteLine("cd " + System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location) + "\\");
 			process.StandardInput.WriteLine("swind2.exe gdrv.sys Kernel.sys");
 			process.StandardInput.WriteLine("exit");
 			process.StandardOutput.ReadToEnd();
